@@ -1,1 +1,0 @@
-# palanioffcl.github.io
