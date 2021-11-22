@@ -57,13 +57,13 @@ html{
   box-sizing: border-box;
   color: #FFFFFF;
   display: flex;
-  font-family: ProductSans, sans-serif;
-  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
-  min-width: 140px;
-  padding: 19px 24px;
+  min-width: 125px;
+  padding: 10px 20px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
