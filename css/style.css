@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "product sans", sans-serif;
   color: #444444;
 }
 
@@ -17,7 +17,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "product Sans", sans-serif;
 }
 
 html{
@@ -50,7 +50,7 @@ html{
   box-sizing: border-box;
   color: #FFFFFF;
   display: flex;
-  font-family: "Open Sans", sans-serif;
+  font-family: "product sans", sans-serif;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
@@ -950,7 +950,7 @@ section {
   font-size: 36px;
   color: #ffb727;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "product sans", sans-serif;
   margin-bottom: 20px;
 }
 .pricing h4 sup {
