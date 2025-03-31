@@ -1,0 +1,25 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./Pages/Home";
+import { Achievements } from "./Pages/Achievements";
+import { Work } from "./Pages/Work";
+import './index.css';
+import { Projects } from "./Pages/Projects";
+import { About } from "./Pages/About";
+
+export default function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="work" element={<Work />} />
+                <Route path="achievements" element={<Achievements />} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
