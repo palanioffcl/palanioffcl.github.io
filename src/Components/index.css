@@ -47,6 +47,10 @@ a {
 
 .work {
     padding-top: 45px;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 3px 3px #888888;
+    border-radius: 15px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -55,7 +59,6 @@ a {
 
 
 .achieve {
-    padding-top: 45px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -85,10 +88,11 @@ a {
 }
 
 .projs {
-    margin: 25px;
+    padding-top: 45px;
+    /* margin: 25px; */
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
 }
 

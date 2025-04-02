@@ -2,7 +2,7 @@ import '../Components/index.css';
 import { Navbar } from '../Components/Navbar';
 
 export function Projects() {
-    
+
     return (
         <>
             <div className="homepage">

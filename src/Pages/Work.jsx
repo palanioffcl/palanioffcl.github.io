@@ -6,6 +6,7 @@ export function Work() {
         <>
             <div className="homepage">
                 <Navbar />
+                <div style={{paddingTop:"45px"}}>
                 <div className='work'>
                     <ul>
                         <h3>GwayERP (July 2023 - Present)</h3>
@@ -17,6 +18,8 @@ export function Work() {
 
                     </ul>
                 </div>
+                </div>
+                
             </div>
         </>
     );
