@@ -57,14 +57,33 @@ a {
     width: 750px;
 }
 
+.timeline {
+    padding-top: 45px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+    width: 850px;
+}
 
 .achieve {
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 900px;
     gap: 20px;
+    size: 15px;
     border-color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.res {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .box {
@@ -72,27 +91,36 @@ a {
     padding: 20px;
     box-shadow: 3px 4px #888888;
     border-radius: 15px;
-    background-color: white;
-    color: black;
+}
+
+.abox {
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
 }
 
 .achieve {
     padding-top: 45px;
-    margin: 0 auto;
+    padding-bottom: 15px;
+    /* margin: 0 auto; */
+     display: flex;
+    justify-content: space-around;
+}
+
+
+.achievem {
+    padding-left: 350px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    width: 900px;
-    gap: 20px;
-    border-color: white;
 }
 
 .projs {
     padding-top: 45px;
-    /* margin: 25px; */
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
 }
 
@@ -107,4 +135,46 @@ a {
 
 .header {
     cursor: pointer;
+}
+
+.ts {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 15px;
+    margin:15px;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.techstack {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 340px;
+    flex-wrap: wrap;
+}
+
+.link {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.soclink {
+    color: white;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.codingprofile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
 }
