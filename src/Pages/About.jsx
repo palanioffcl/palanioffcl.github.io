@@ -51,6 +51,7 @@ export function About() {
             <div className='timeline'>Bachelors of Engineering - CSE (2021 - Present)<br></br><br></br> Sree Sastha Institute of Engineering and Technology</div>
             <div className='timeline'>Grade XII - (2019-2021) <br></br><br></br> Sri Ramakrishna Matric Hr Sec school</div>
             <div className='timeline'>Grade XII - (2018-2019) <br></br><br></br> Sri Sankara Vidya Kendra</div>
+            <div className='achieve'></div>
        </>
     );
 }
