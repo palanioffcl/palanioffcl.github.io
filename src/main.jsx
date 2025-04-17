@@ -1,8 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./Pages/Home";
-import { Work } from "./Pages/Work";
-import './index.css';
+import '../src/Components/index.css';
 import { Projects } from "./Pages/Projects";
 import { About } from "./Pages/About";
 
@@ -13,7 +12,6 @@ export default function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="projects" element={<Projects />} />
-                <Route path="work" element={<Work />} />
             </Routes>
         </BrowserRouter>
     );
