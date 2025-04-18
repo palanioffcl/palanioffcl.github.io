@@ -53,9 +53,9 @@ a {
     border: 1px solid;
     padding: 20px;
     border-radius: 15px;
-    display: flex;
     margin-top: 15px;
-    margin-inline: 15px;
+    width: 100%;
+    max-width: 679px;
 }
 
 .achieve {
@@ -157,6 +157,7 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    margin-inline: 15px;
 }
 
 .codinglinks {
