@@ -14,7 +14,7 @@ export function Navbar() {
                 <div className='navbardiv'>
                     <div><Link to="/about">About</Link></div>
                     <div><Link to="/projects">Projects</Link></div>
-                    <div><a href='/src/assets/Palani_SoftwareDeveloper_Resume.pdf'>Resume</a></div>
+                    <div><a href='https://drive.google.com/drive/folders/19IWPyO3sda83ExJCHuUecekar2BDD4gJ'>Resume</a></div>
                 </div>
             </div>
         </>
