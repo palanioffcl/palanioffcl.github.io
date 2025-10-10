@@ -26,14 +26,15 @@ export function About() {
                 </div>
             </div>
 
-            <div className='achieve'>Coding</div>
+            <div className='achieve'>Coding Profiles</div>
             <div className="projectswrapper">
                 <div className='projs'>
                     <div className='pbox'>500+ Problems Solved<br></br><br></br> <a className='link' href='https://leetcode.com/palaniga'>Leetcode</a></div>
-                    <div className='pbox'>4🌟 on Java & 3 🌟on DSA<br></br><br></br> <a className='link' href="https://www.hackerrank.com/profile/palanioffl">Hackerrank</a></div>
+                    <div className='pbox'>4⭐ on Java & 3 ⭐on DSA<br></br><br></br> <a className='link' href="https://www.hackerrank.com/profile/palanioffl">Hackerrank</a></div>
                     <div className='pbox'>250 points in Geeksforgeeks<br></br><br></br><a className='link' href="https://www.geeksforgeeks.org/user/palanioffl/">Geeksforgeeks</a></div>
                     <div className='pbox'>MaxRating(797) Newbie<br></br><br></br> <a className='link' href="https://codeforces.com/profile/palanioffl">Codeforces</a></div>
-                    <div className='pbox'>MaxRating(922) 1⭐<br></br><br></br> <a className='link' href="https://www.codechef.com/users/palaniga">Codechef</a></div>
+                    <div className='pbox'>MaxRating(980) 1⭐<br></br><br></br> <a className='link' href="https://www.codechef.com/users/palaniga">Codechef</a></div>
+                    <div className='pbox'>MaxRating(102)<br></br><br></br> <a className='link' href="https://atcoder.jp/users/Palani">Atcoder</a></div>
                 </div>
             </div>
             <div className='achieve'></div>
